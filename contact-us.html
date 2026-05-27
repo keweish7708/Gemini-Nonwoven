@@ -166,10 +166,46 @@
                   </div>
                   <div class="col-lg-6 mb-3 mb-5">
                       <div class="feedback_bg mt-0">
-                          <div class="webtitle">Get in Touch</div>
-                          <div id="etw_set_feedback_form">
-                            <div id="floatchatiframe2011"></div>
-                          </div>
+                          <div class="webtitle">Send Us a Message</div>
+<form action="https://formsubmit.co/sales@gemini-nonwoven.com" method="POST">
+<input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_subject" value="Website Inquiry - Gemini Nonwoven">
+
+<div class="form-group mb-3">
+<label><strong>YOUR NAME *</strong></label>
+<input type="text" name="name" class="form-control" required>
+</div>
+
+<div class="form-group mb-3">
+<label><strong>EMAIL ADDRESS *</strong></label>
+<input type="email" name="email" class="form-control" required>
+</div>
+
+<div class="form-group mb-3">
+<label><strong>COMPANY NAME</strong></label>
+<input type="text" name="company" class="form-control">
+</div>
+
+<div class="form-group mb-3">
+<label><strong>SERVICE INTEREST</strong></label>
+<select name="service" class="form-control">
+<option>Nonwoven Machinery</option>
+<option>Needle Punching Line</option>
+<option>Thermobonding Line</option>
+<option>Chemical Bonding Line</option>
+<option>Other</option>
+</select>
+</div>
+
+<div class="form-group mb-3">
+<label><strong>MESSAGE</strong></label>
+<textarea name="message" rows="6" class="form-control"></textarea>
+</div>
+
+<button type="submit" class="btn btn-primary btn-lg btn-block">
+SUBMIT INQUIRY →
+</button>
+</form>
                         </div>
                   </div>
                 </div>
@@ -266,32 +302,7 @@
   <script type="text/javascript" src="bootstrap-4.1.3/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="videojs/jquery.magnific-popup.min.js"></script>
   <script type="text/javascript" src="js/comm.js"></script>
-  <script type="text/javascript">
-    var chat_param = new Object();
-    chat_param.jsqid = 22970; //计数器编号, 务必改成对应客户的计数器号
-    chat_param.chatid = 8173; //询盘编号, 务必改成对应客户的询盘号
-    chat_param.lan = 'en'; //语言
-    chat_param.ShowFooterIcon = 1; //1, 文字显示方式,不等于1, 图片显示方式
-    chat_param.hiddenitem = 0; //隐藏部分表单项,1隐藏，0不隐藏
-    chat_param.hiddenbox = 0; //1、隐藏部浮动询盘隐
-    chat_param.rssUrl = 'rss.xml'; //RSS链接, 默认为: add/rss
-    chat_param.sitemapUrl = 'sitemap.xml'; //sitemap链接, 默认为: add/sitemap 
-    chat_param.chatstyle = '.form-control{border-radius:3px!important;}.sendsubmit{background:#45b4e7!important; color:#fff!important;border-radius: 22px!important;padding: 0rem 2rem!important;}}';
-    jQuery(document).ready(function () {
-      jQuery.getScript('../etwus13.com/serverFile/chat/2015/chat.2015.js', function () {
-          etw_init(chat_param);
-          SetInquiryForm('floatchatiframe2011', '100%', '480px');
-          //Get_Google_Analytics('');
-          jQuery.getScript("../etwinternational.com/public/world/js/etwlanlist.min.js", function () {
-            chat_param.showimg = 0;//国旗：1:显示,0隐藏
-            chat_param.showdiv = "etw_language";//显示的位置，必须是ID
-            ETWLanList(chat_param);
-          });
-      })
-    });
-  </script>
-<script type="text/javascript" src="../etwus13.com/public/static/js/etw_public_data.js"></script> 
-<script type="text/javascript" src="../etwus13.com/public/static/layer/layer.js"></script> 
+  
 <script type="text/javascript">
 		//展会
 		chat_param.width = 300; //弹出层宽度
